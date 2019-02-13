@@ -1,0 +1,226 @@
+/* Default DevCorner Style Setting */
+
+:root{
+  --dc-: #28a745;
+  --gr-: #515151;
+  --wh-: #fff;
+  --shadow-: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.fa-code{
+  color: var(--dc-);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/img_05.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.brand{
+  margin: 0;
+  padding: 0.5em;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #515151;
+  border-radius: 5px;
+  font-family: Roboto;
+  z-index: 1;
+  font-size: 3em;
+}
+
+h5{
+  font-family: Roboto;
+  color: var(--gr-);
+  font-size: 2em;
+
+}
+
+.wrapper{
+  margin: 3em auto 0;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  top: 35%;
+  background: rgba(255,255,255,0.5);
+  width: 45em;
+  border-radius: 5px;
+}
+
+.btn{
+  display: flex;
+}
+
+.btn div span{
+  display: inline-flex;
+}
+
+.btn small{
+  display: block;
+}
+
+.btn span p:first-child{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn span p:last-child{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+p{
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 14px;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.35rem 0.7rem;
+  cursor: default;
+  width: 1em;
+  height: 2em;
+}
+
+hr{
+  margin-top: 2em;
+  width: 30em;
+  color: rgba(0,0,0,0.8);
+}
+
+.lines{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Button Colors */
+.t-red-1{color: var(--wh-);background: #e94c3d;}
+.t-red-2{color: var(--wh-);background: #c1392b;}
+
+.t-orange-1{color: var(--wh-);background: #e87f23;}
+.t-orange-2{color: var(--wh-);background: #d25400;}
+
+.t-yellow-1{color: var(--wh-);background: #fccf00;}
+.t-yellow-2{color: var(--wh-);background: #ffa800;}
+
+.t-sand-1{color: var(--wh-);background: #f0dfb4;}
+.t-sand-2{color: var(--wh-);background: #d6c496;}
+
+.t-navy-blue-1{color: var(--wh-);background: #34495e;}
+.t-navy-blue-2{color: var(--wh-);background: #2d3e50;}
+
+.t-black-1{color: var(--wh-);background: #2b2b2b;}
+.t-black-2{color: var(--wh-);background: #262626;}
+
+.t-magenta-1{color: var(--wh-);background: #9a59b5;}
+.t-magenta-2{color: var(--wh-);background: #8d44ad;}
+
+.t-teal-1{color: var(--wh-);background: #3a6f81;}
+.t-teal-2{color: var(--wh-);background: #346272;}
+
+.t-sky-blue-1{color: var(--wh-);background: #3597db;}
+.t-sky-blue-2{color: var(--wh-);background: #2a7eb8;}
+
+.t-green-1{color: var(--wh-);background: #2dcc70;}
+.t-green-2{color: var(--wh-);background: #27ae61;}
+
+.t-mint-1{color: var(--wh-);background: #1bbc9b;}
+.t-mint-2{color: var(--wh-);background: #179f87;}
+
+.t-white-1{color: var(--wh-);background: #ecf0f1;}
+.t-white-2{color: var(--wh-);background: #bec3c7;}
+
+.t-gray-1{color: var(--wh-);background: #95a5a5;}
+.t-gray-2{color: var(--wh-);background: #7e8c8d;}
+
+.t-forest-green-1{color: var(--wh-);background: #345f41;}
+.t-forest-green-2{color: var(--wh-);background: #2e5037;}
+
+.t-purple-1{color: var(--wh-);background: #745dc7;}
+.t-purple-2{color: var(--wh-);background: #5949a2;}
+
+.t-brown-1{color: var(--wh-);background: #5f4533;}
+.t-brown-2{color: var(--wh-);background: #513b2e;}
+
+.t-plum-1{color: var(--wh-);background: #5e335e;}
+.t-plum-2{color: var(--wh-);background: #4f2b4f;}
+
+.t-watermelon-1{color: var(--wh-);background: #ef727a;}
+.t-watermelon-2{color: var(--wh-);background: #da5455;}
+
+.t-lime-1{color: var(--wh-);background: #a5c63b;}
+.t-lime-2{color: var(--wh-);background: #8fb021;}
+
+.t-pink-1{color: var(--wh-);background: #f47cc3;}
+.t-pink-2{color: var(--wh-);background: #d45b9e;}
+
+.t-maroon-1{color: var(--wh-);background: #7a312a;}
+.t-maroon-2{color: var(--wh-);background: #672723;}
+
+.t-coffee-1{color: var(--wh-);background: #a18671;}
+.t-coffee-2{color: var(--wh-);background: #8e725d;}
+
+.t-powder-blue-1{color: var(--wh-);background: #b7c8f5;}
+.t-powder-blue-2{color: var(--wh-);background: #99aad6;}
+
+.t-blue-1{color: var(--wh-);background: #5165a2;}
+.t-blue-2{color: var(--wh-);background: #384c81;}
+
+/* Strap Colors */
+span{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Roboto;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.strap{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.strap span{
+  padding: 0.8em 0;
+  display: block;
+  width: 35em;
+}
+.strap span:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.strap span:last-child{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.grapefruit-1{
+  color: var(--wh-);
+  background: #f76c82;
+}
+.grapefruit-2{
+  color: var(--wh-);
+  background: #eb5463;
+}
+.grapefruit-3{
+  color: var(--wh-);
+  background: #d94452;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */

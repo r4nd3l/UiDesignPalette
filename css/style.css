@@ -54,7 +54,8 @@ h5{
 }
 
 .btn{
-  display: flex;
+  display: inline-flex;
+  margin: 0 auto;
 }
 
 .btn div span{
@@ -63,6 +64,11 @@ h5{
 
 .btn small{
   display: block;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Roboto;
+  margin: -0.8em 0 1em;
+  color: var(--gr-);
 }
 
 .btn span p:first-child{
@@ -82,7 +88,7 @@ p{
   color: #fff;
   padding: 0.35rem 0.7rem;
   cursor: default;
-  width: 1em;
+  width: 1.4em;
   height: 2em;
 }
 
@@ -182,12 +188,13 @@ span{
 .strap{
   display: inline-block;
   margin: 0 auto;
+  margin: 1em 8px;
 }
 
 .strap span{
   padding: 0.8em 0;
   display: block;
-  width: 35em;
+  width: 12.4em;
 }
 .strap span:first-child{
   border-top-left-radius: 5px;
@@ -198,18 +205,59 @@ span{
   border-bottom-right-radius: 5px;
 }
 
-.grapefruit-1{
-  color: var(--wh-);
-  background: #f76c82;
+.strap:nth-child(10) span,
+.strap:nth-child(11) span{
+  color: var(--gr-);
 }
-.grapefruit-2{
-  color: var(--wh-);
-  background: #eb5463;
-}
-.grapefruit-3{
-  color: var(--wh-);
-  background: #d94452;
-}
+
+.grapefruit-1{color: var(--wh-);background: #f76c82;}
+.grapefruit-2{color: var(--wh-);background: #eb5463;}
+.grapefruit-3{color: var(--wh-);background: #d94452;}
+
+.bittersweet-1{color: var(--wh-);background: #fb836f;}
+.bittersweet-2{color: var(--wh-);background: #fa6c51;}
+.bittersweet-3{color: var(--wh-);background: #e8553e;}
+
+.sunflower-1{color: var(--wh-);background: #fbd277;}
+.sunflower-2{color: var(--wh-);background: #fdcd56;}
+.sunflower-3{color: var(--wh-);background: #f5b945;}
+
+.grass-1{color: var(--wh-);background: #b4df80;}
+.grass-2{color: var(--wh-);background: #9ed26a;}
+.grass-3{color: var(--wh-);background: #89c053;}
+
+.mint-1{color: var(--wh-);background: #61ddbc;}
+.mint-2{color: var(--wh-);background: #46ceac;}
+.mint-3{color: var(--wh-);background: #35ba9b;}
+
+.aqua-1{color: var(--wh-);background: #66d4f1;}
+.aqua-2{color: var(--wh-);background: #4fc0e8;}
+.aqua-3{color: var(--wh-);background: #3aadd9;}
+
+.blue-jeans-1{color: var(--wh-);background: #73b0f4;}
+.blue-jeans-2{color: var(--wh-);background: #5e9cea;}
+.blue-jeans-3{color: var(--wh-);background: #4a88da;}
+
+.lavender-1{color: var(--wh-);background: #b3a4ee;}
+.lavender-2{color: var(--wh-);background: #ac92ea;}
+.lavender-3{color: var(--wh-);background: #9579da;}
+
+.lavender-pink-1{color: var(--wh-);background: #f199ce;}
+.lavender-pink-2{color: var(--wh-);background: #eb86be;}
+.lavender-pink-3{color: var(--wh-);background: #d56fac;}
+
+.skin-tone-1{color: var(--wh-);background: #f4d0b5;}
+.skin-tone-2{color: var(--wh-);background: #efc7a4;}
+.skin-tone-3{color: var(--wh-);background: #e3b692;}
+
+.light-gray-1{color: var(--wh-);background: #f4f6f8;}
+.light-gray-2{color: var(--wh-);background: #e4e8eb;}
+.light-gray-3{color: var(--wh-);background: #cad0d7;}
+
+.dark-gray-1{color: var(--wh-);background: #a9b0bb;}
+.dark-gray-2{color: var(--wh-);background: #636c77;}
+.dark-gray-3{color: var(--wh-);background: #424852;}
+
 
 
 
